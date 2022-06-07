@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../vue的js/vue.js"></script>
+</head>
+<body>
+    <div id="root">
+        <h2>设备开机检测</h2>
+        <button @click="jianche">点我检测</button>
+    </div>
+</body>
+<script>
+    new Vue({
+        el:"#root",
+        data:{
+           
+        },
+        methods:{
+            jianche(){
+                alert('你的设备已开机')
+            }
+        }
+    })
+</script>
+</html>
